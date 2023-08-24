@@ -37,7 +37,7 @@ const Home = () => {
           </>
         ) : (
           <>
-            <Pic src="./TaskTrack/img/cartoon.png" />
+            <Pic src="./img/cartoon.png" />
           </>
         )}
       </div>
