@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Sidebar.css"
+import logo from "./img/todo.png"
 import {
   Link
 } from "react-router-dom";
@@ -10,7 +11,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <Link to="/home" className="sidebar-logo">
         
-    <img src="./img/todo.png" alt="logo" /> 
+    <img src={logo} alt="logo" /> 
       <h2><span style={{color:"#a4557f"}}>Task</span><span >Track</span></h2>
       </Link>
       <Link to="/home" className="sidebar-btn">
