@@ -1,0 +1,60 @@
+.list-item{
+    background: rgb(221, 219, 219);
+    width: 63%;
+    padding: 10px 30px;
+    margin: 10px;
+    margin-left: 5vw;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4); 
+
+}
+.list-item-date{
+    text-align: right;
+}
+.mark-completed-container{
+    display: flex;justify-content: end;
+}
+
+.mark-completed{
+    padding: 5px 10px;
+    border-radius: 5px ;
+outline: none;
+border: 1px solid rgb(181, 178, 178);
+cursor: pointer;
+transition: 0.1s ease-in-out;
+box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+.mark-completed:hover{
+    background: rgb(107, 226, 107);
+}
+.top{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.list-item-title{
+    width: 75%;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+p{
+    margin: 5px;
+}
+.trash-btn{
+    position: relative;
+    top: -20px;
+    float: right;
+    right: -37px;
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease-in-out;
+}
+.trash-btn:hover{
+    background: rgb(200, 30, 30);
+    color: white;
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #242525;
+}

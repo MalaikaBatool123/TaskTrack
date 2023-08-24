@@ -1,0 +1,11 @@
+
+
+.content{
+    /* background: lavender; */
+    position: absolute;
+    top: 5vh;
+    left: 22vw;
+    width: 75vw;
+    /* flex: 1; Allow the content to grow and take up available space */
+  overflow-y: auto; 
+}
