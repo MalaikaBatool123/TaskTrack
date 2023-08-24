@@ -23,12 +23,13 @@ const formattedDate = formatDate(currentDate);
         <Sidebar />
         <Routes>
         <Route exact path="/" element={<Content />} />
+        <Route exact path="/TaskTrack" element={<Content />} />
         <Route exact path="/home" element={<Content />} />
-        <Route path="/add_task" element={<Content componentName="Add_Todo" text="Add Todo Item"/>} />
-        <Route path="/upcoming_tasks" element={<Content componentName="Upcoming" text1="Upcoming Tasks" type="pending"/>} />
-        <Route path="/completed_tasks" element={<Content componentName="Completed" text1="Completed Tasks" type="completed"/>} />
-        <Route path="/deleted_tasks" element={<Content componentName="Deleted" text1="Deleted Tasks" type="deleted"/>} />
-        <Route path="/today_tasks" element={<Content componentName="Today" text1="Today Tasks" type="pending" date={formattedDate}/>} />
+        <Route exact path="/add_task" element={<Content componentName="Add_Todo" text="Add Todo Item"/>} />
+        <Route exact path="/upcoming_tasks" element={<Content componentName="Upcoming" text1="Upcoming Tasks" type="pending"/>} />
+        <Route exact path="/completed_tasks" element={<Content componentName="Completed" text1="Completed Tasks" type="completed"/>} />
+        <Route exact path="/deleted_tasks" element={<Content componentName="Deleted" text1="Deleted Tasks" type="deleted"/>} />
+        <Route exact path="/today_tasks" element={<Content componentName="Today" text1="Today Tasks" type="pending" date={formattedDate}/>} />
           
         </Routes>
       </div>

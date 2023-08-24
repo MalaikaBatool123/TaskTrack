@@ -10,7 +10,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <Link to="/home" className="sidebar-logo">
         
-    <img src="img/todo.png" alt="lgo" /> 
+    <img src="./TaskTrack/img/todo.png" alt="logo" /> 
       <h2><span style={{color:"#a4557f"}}>Task</span><span >Track</span></h2>
       </Link>
       <Link to="/home" className="sidebar-btn">
